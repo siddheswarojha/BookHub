@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "242956496319",
+    "project_id": "bookhub-5afc6",
+    "storage_bucket": "bookhub-5afc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242956496319:android:9cdb4e983cc0b72e6f050a",
+        "android_client_info": {
+          "package_name": "com.siddheswar.bookhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242956496319-08i5dv62dio9iktolcfevsebtpnfo7rf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.siddheswar.bookhub",
+            "certificate_hash": "920a41e229877045d7fb5f9634c8ae535bd26c52"
+          }
+        },
+        {
+          "client_id": "242956496319-kl82tuktonm2bj1ho9fr21883pcqglrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANVjIitjvXOTAMB056DREGIRAQlenE5p0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242956496319-kl82tuktonm2bj1ho9fr21883pcqglrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

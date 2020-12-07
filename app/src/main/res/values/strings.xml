@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BookHub</string>
+    <string name="bookhub">BookHub</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+    <string name="search_your_books">Search Your Books</string>
+    <string name="textsample">textSample</string>
+    <string name="info">info</string>
+    <string name="email">Email</string>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="73dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="346dp"
+            android:layout_marginEnd="25dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/PhoneLogIn"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+
+                android:background="@drawable/shapebg"
+
+
+                android:hint="@string/email"
+
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:drawableStart="@drawable/ic_baseline_email_24" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="73dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginEnd="25dp"
+            app:passwordToggleEnabled="true"
+
+            app:passwordToggleTint="@color/colorAccent"
+            app:passwordToggleTintMode="multiply"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/PasswordLogIn"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/shapebg"
+                android:drawableLeft="@drawable/ic_baseline_lock_open_24"
+
+                android:hint="@string/password"
+
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true"
+                android:drawableStart="@drawable/ic_baseline_lock_open_24" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="143dp"
+            android:layout_marginTop="554dp"
+            android:layout_marginEnd="143dp"
+            android:background="@drawable/bg_button"
+            android:text="@string/login"
+            android:textColor="#F8FBFB"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" />
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/spin_kit"
+            style="@style/SpinKitView.Large.Circle"
+            android:layout_width="81dp"
+            android:layout_height="78dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="164dp"
+            android:layout_marginLeft="164dp"
+            android:layout_marginTop="243dp"
+            android:visibility="invisible"
+            app:SpinKit_Color="@color/colorAccent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

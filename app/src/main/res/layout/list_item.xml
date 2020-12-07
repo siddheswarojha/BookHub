@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+
+        android:layout_marginRight="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           >
+
+            <ImageView
+                android:id="@+id/SampleImage"
+                android:layout_width="163dp"
+                android:layout_height="198dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="242dp"
+                android:layout_marginRight="242dp" />
+
+
+            <Button
+                android:id="@+id/btnPreview"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="171dp"
+                android:layout_marginLeft="171dp"
+                android:layout_marginTop="243dp"
+                android:background="@drawable/bg_button"
+                android:text="Preview"
+                android:textColor="#ffffffff" />
+
+            <Button
+                android:id="@+id/btnInfo"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="305dp"
+                android:layout_marginLeft="305dp"
+                android:layout_marginTop="241dp"
+                android:background="@drawable/bg_button"
+                android:text="@string/info"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/textBookName"
+                android:layout_width="245dp"
+                android:layout_height="76dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:gravity="center_horizontal"
+                android:text="@string/textsample"
+
+
+                android:textAlignment="center"
+                android:textColor="@color/colorblack"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/txtPreview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+
+                android:text="text"/>
+
+            <TextView
+                android:id="@+id/txtInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:text="text"/>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
