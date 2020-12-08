@@ -29,7 +29,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
-        android:layout_marginTop="488dp"
+        android:layout_marginTop="527dp"
         android:fontFamily="@font/amitaa"
         android:gravity="center_horizontal"
         android:text="@string/bookhub"
