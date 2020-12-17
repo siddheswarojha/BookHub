@@ -11,15 +11,15 @@
     <ImageView
         android:id="@+id/splscrn"
         android:layout_width="match_parent"
-        android:layout_height="513dp"
+        android:layout_height="347dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginBottom="166dp"
-        app:srcCompat="@drawable/bookhublogo"
-        android:contentDescription="@string/todo" />
+        android:layout_marginStart="-12dp"
+        android:layout_marginLeft="-12dp"
+        android:layout_marginBottom="279dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/bookhublogo" />
 
     <TextView
         android:layout_width="match_parent"

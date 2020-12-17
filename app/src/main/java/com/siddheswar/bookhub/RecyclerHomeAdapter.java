@@ -81,10 +81,6 @@ public class RecyclerHomeAdapter extends RecyclerView.Adapter<RecyclerHomeAdapte
 
 
 
-
-
-
-
     }
 
     @Override

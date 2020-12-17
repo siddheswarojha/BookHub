@@ -14,4 +14,8 @@
     <string name="email">Email</string>
     <string name="bookhub">BookHub</string>
     <string name="todo">TODO</string>
+    <string name="profile">profile</string>
+    <string name="log_out">Log Out</string>
+    <string name="share">Share</string>
+    <string name="a_budding_book_revolution">A budding book revolution</string>
 </resources>
